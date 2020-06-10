@@ -1,0 +1,270 @@
+2020-06-05 09:17:17 [root] WARNING: 11111111111111
+2020-06-05 09:17:18 [root] WARNING: 11111111111111
+2020-06-05 09:17:20 [root] WARNING: 11111111111111
+2020-06-05 09:36:27 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.qcc.com/search?key=%E4%B8%8A%E6%B5%B7%E8%A5%BF%E9%82%A6%E7%94%B5%E6%B0%94%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (failed 3 times): Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+2020-06-05 09:36:27 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E4%B8%8A%E6%B5%B7%E8%A5%BF%E9%82%A6%E7%94%B5%E6%B0%94%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+2020-06-05 09:36:54 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.qcc.com/search?key=%E5%B9%BF%E4%B8%9C%E6%97%A5%E6%98%AD%E6%96%B0%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (failed 3 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 09:36:55 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E5%B9%BF%E4%B8%9C%E6%97%A5%E6%98%AD%E6%96%B0%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 09:36:58 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.qcc.com/search?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%B2%83%E5%B0%94%E6%A0%B8%E6%9D%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (failed 3 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 09:36:59 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%B2%83%E5%B0%94%E6%A0%B8%E6%9D%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 09:40:21 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.qcc.com/search?key=%E4%B8%8A%E6%B5%B7%E8%A5%BF%E9%82%A6%E7%94%B5%E6%B0%94%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (failed 3 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 09:40:21 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E4%B8%8A%E6%B5%B7%E8%A5%BF%E9%82%A6%E7%94%B5%E6%B0%94%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 09:40:25 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.qcc.com/search?key=%E5%B9%BF%E4%B8%9C%E6%97%A5%E6%98%AD%E6%96%B0%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (failed 3 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 09:40:25 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E5%B9%BF%E4%B8%9C%E6%97%A5%E6%98%AD%E6%96%B0%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 09:40:30 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.qcc.com/search?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%B2%83%E5%B0%94%E6%A0%B8%E6%9D%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (failed 3 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 09:40:30 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%B2%83%E5%B0%94%E6%A0%B8%E6%9D%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 09:44:57 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.qcc.com/search?key=%E4%B8%8A%E6%B5%B7%E8%A5%BF%E9%82%A6%E7%94%B5%E6%B0%94%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (failed 3 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 09:44:57 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E4%B8%8A%E6%B5%B7%E8%A5%BF%E9%82%A6%E7%94%B5%E6%B0%94%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 09:45:01 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.qcc.com/search?key=%E5%B9%BF%E4%B8%9C%E6%97%A5%E6%98%AD%E6%96%B0%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (failed 3 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 09:45:01 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E5%B9%BF%E4%B8%9C%E6%97%A5%E6%98%AD%E6%96%B0%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 09:45:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.qcc.com/search?key=%E4%B8%8A%E6%B5%B7%E8%A5%BF%E9%82%A6%E7%94%B5%E6%B0%94%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\utils\defer.py", line 117, in iter_errback
+    yield next(it)
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\utils\python.py", line 345, in __next__
+    return next(self.data)
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\utils\python.py", line 345, in __next__
+    return next(self.data)
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 338, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\杨\qccscrapy\qichacha\qichacha\spiders\qcc.py", line 35, in parse
+    origin = json.loads(response.text)['origin']
+  File "c:\program files\python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "c:\program files\python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\program files\python36\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+2020-06-05 09:45:17 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.qcc.com/search?key=%E5%B9%BF%E4%B8%9C%E6%97%A5%E6%98%AD%E6%96%B0%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\utils\defer.py", line 117, in iter_errback
+    yield next(it)
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\utils\python.py", line 345, in __next__
+    return next(self.data)
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\utils\python.py", line 345, in __next__
+    return next(self.data)
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 338, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\杨\qccscrapy\qichacha\qichacha\spiders\qcc.py", line 35, in parse
+    origin = json.loads(response.text)['origin']
+  File "c:\program files\python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "c:\program files\python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\program files\python36\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+2020-06-05 09:45:17 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.qcc.com/search?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%B2%83%E5%B0%94%E6%A0%B8%E6%9D%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\utils\defer.py", line 117, in iter_errback
+    yield next(it)
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\utils\python.py", line 345, in __next__
+    return next(self.data)
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\utils\python.py", line 345, in __next__
+    return next(self.data)
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 338, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Administrator\Envs\myscrapy_py3\lib\site-packages\scrapy\core\spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "D:\杨\qccscrapy\qichacha\qichacha\spiders\qcc.py", line 35, in parse
+    origin = json.loads(response.text)['origin']
+  File "c:\program files\python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "c:\program files\python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\program files\python36\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+2020-06-05 09:46:57 [root] WARNING: 11111111111111
+2020-06-05 09:46:57 [root] WARNING: 11111111111111
+2020-06-05 09:46:58 [root] WARNING: 11111111111111
+2020-06-05 10:24:35 [root] WARNING: 11111111111111
+2020-06-05 10:24:39 [root] WARNING: 11111111111111
+2020-06-05 10:24:43 [root] WARNING: 11111111111111
+2020-06-05 14:27:26 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.qcc.com/search?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%B2%83%E5%B0%94%E6%A0%B8%E6%9D%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (failed 3 times): Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+2020-06-05 14:27:26 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%B2%83%E5%B0%94%E6%A0%B8%E6%9D%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+2020-06-05 14:27:37 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.qcc.com/search?key=%E4%B8%8A%E6%B5%B7%E8%A5%BF%E9%82%A6%E7%94%B5%E6%B0%94%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (failed 3 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 14:27:37 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E4%B8%8A%E6%B5%B7%E8%A5%BF%E9%82%A6%E7%94%B5%E6%B0%94%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 14:28:01 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.qcc.com/search?key=%E5%B9%BF%E4%B8%9C%E6%97%A5%E6%98%AD%E6%96%B0%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (failed 3 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 14:28:01 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E5%B9%BF%E4%B8%9C%E6%97%A5%E6%98%AD%E6%96%B0%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2020-06-05 15:15:06 [twisted] CRITICAL: Unhandled error in Deferred:
+2020-06-05 15:15:06 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\crawler.py", line 87, in crawl
+    self.engine = self._create_engine()
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\crawler.py", line 101, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\core\engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\core\downloader\__init__.py", line 83, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\utils\misc.py", line 50, in load_object
+    mod = import_module(module)
+  File "c:\program files\python36\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "D:\杨\qccscrapy\qichacha\qichacha\middlewares.py", line 14, in <module>
+    from scrapy import log
+ImportError: cannot import name 'log'
+2020-06-05 15:47:46 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.qcc.com/search?key=%E4%B8%8A%E6%B5%B7%E8%A5%BF%E9%82%A6%E7%94%B5%E6%B0%94%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (failed 3 times): Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+2020-06-05 15:47:46 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E4%B8%8A%E6%B5%B7%E8%A5%BF%E9%82%A6%E7%94%B5%E6%B0%94%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+2020-06-05 15:47:49 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.qcc.com/search?key=%E5%B9%BF%E4%B8%9C%E6%97%A5%E6%98%AD%E6%96%B0%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (failed 3 times): Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+2020-06-05 15:47:49 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E5%B9%BF%E4%B8%9C%E6%97%A5%E6%98%AD%E6%96%B0%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+2020-06-05 15:47:53 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.qcc.com/search?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%B2%83%E5%B0%94%E6%A0%B8%E6%9D%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8> (failed 3 times): Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+2020-06-05 15:47:53 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%B2%83%E5%B0%94%E6%A0%B8%E6%9D%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 10061: 由于目标计算机积极拒绝，无法连接。.
+2020-06-05 15:51:19 [root] WARNING: 11111111111111
+2020-06-05 15:51:19 [root] WARNING: 11111111111111
+2020-06-05 15:51:19 [root] WARNING: 11111111111111
+2020-06-05 16:03:54 [root] WARNING: 11111111111111
+2020-06-05 16:03:55 [root] WARNING: 11111111111111
+2020-06-05 16:03:59 [root] WARNING: 11111111111111
+2020-06-05 16:04:35 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E4%B8%8A%E6%B5%B7%E8%A5%BF%E9%82%A6%E7%94%B5%E6%B0%94%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 36, in process_request
+    response = yield deferred_from_coro(method(request=request, spider=spider))
+  File "D:\杨\qccscrapy\qichacha\qichacha\middlewares.py", line 35, in process_request
+    print(request.content().decode())
+AttributeError: 'Request' object has no attribute 'content'
+2020-06-05 16:04:35 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E5%B9%BF%E4%B8%9C%E6%97%A5%E6%98%AD%E6%96%B0%E6%8A%80%E6%9C%AF%E5%BA%94%E7%94%A8%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 36, in process_request
+    response = yield deferred_from_coro(method(request=request, spider=spider))
+  File "D:\杨\qccscrapy\qichacha\qichacha\middlewares.py", line 35, in process_request
+    print(request.content().decode())
+AttributeError: 'Request' object has no attribute 'content'
+2020-06-05 16:04:36 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.qcc.com/search?key=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%B2%83%E5%B0%94%E6%A0%B8%E6%9D%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8>
+Traceback (most recent call last):
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "D:\pythonenv\envs\gjdwscrapy_py3\lib\site-packages\scrapy\core\downloader\middleware.py", line 36, in process_request
+    response = yield deferred_from_coro(method(request=request, spider=spider))
+  File "D:\杨\qccscrapy\qichacha\qichacha\middlewares.py", line 35, in process_request
+    print(request.content().decode())
+AttributeError: 'Request' object has no attribute 'content'
+2020-06-05 16:05:47 [root] WARNING: 11111111111111
+2020-06-05 16:05:47 [root] WARNING: 11111111111111
+2020-06-05 16:05:48 [root] WARNING: 11111111111111
+2020-06-05 16:07:43 [root] WARNING: 11111111111111
+2020-06-05 16:07:43 [root] WARNING: 11111111111111
+2020-06-05 16:07:45 [root] WARNING: 11111111111111
+2020-06-05 16:30:22 [root] WARNING: 11111111111111
+2020-06-05 16:30:23 [root] WARNING: 11111111111111
+2020-06-05 16:30:27 [root] WARNING: 11111111111111

@@ -1,0 +1,47 @@
+2020-05-31 19:35:11 [root] WARNING: ****************************************************************************************************
+2020-05-31 19:35:11 [root] WARNING: 这是一个警告
+2020-05-31 23:13:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.qcc.com/firm_91TU9PI.shtml#base> (referer: https://www.qcc.com/search?key=%E5%B9%BF%E8%A5%BF%E9%80%81%E5%8F%98%E7%94%B5%E5%BB%BA%E8%AE%BE%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%93%81%E5%A1%94%E5%8E%82)
+Traceback (most recent call last):
+  File "/home/yongyong/.virtualenvs/py3/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/yongyong/qccscrapy/qichacha/qichacha/spiders/qcc.py", line 60, in gd_parse
+    table_gdx = table_gd[0]
+  File "/home/yongyong/.virtualenvs/py3/lib/python3.5/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2020-05-31 23:24:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.qcc.com/firm_89T54QH.shtml#base> (referer: https://www.qcc.com/search?key=%E7%89%B9%E5%8F%98%E7%94%B5%E5%B7%A5%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%96%B0%E7%96%86%E5%8F%98%E5%8E%8B%E5%99%A8%E5%8E%82)
+Traceback (most recent call last):
+  File "/home/yongyong/.virtualenvs/py3/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/yongyong/qccscrapy/qichacha/qichacha/spiders/qcc.py", line 60, in gd_parse
+    table_gdx = table_gd[0]
+  File "/home/yongyong/.virtualenvs/py3/lib/python3.5/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2020-05-31 23:50:39 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.qcc.com/firm_49O3ECE.shtml#base> (referer: https://www.qcc.com/search?key=%E7%89%B9%E5%8F%98%E7%94%B5%E5%B7%A5%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%96%B0%E7%96%86%E7%BA%BF%E7%BC%86%E5%8E%82)
+Traceback (most recent call last):
+  File "/home/yongyong/.virtualenvs/py3/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/yongyong/qccscrapy/qichacha/qichacha/spiders/qcc.py", line 60, in gd_parse
+    table_gdx = table_gd[0]
+  File "/home/yongyong/.virtualenvs/py3/lib/python3.5/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2020-06-01 00:20:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.qcc.com/firm_53Z64BR.shtml#base> (referer: https://www.qcc.com/search?key=%E6%B9%96%E5%8C%97%E5%8D%8E%E4%B8%AD%E8%BE%93%E5%8F%98%E7%94%B5%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%93%81%E5%A1%94%E5%88%86%E5%85%AC%E5%8F%B8)
+Traceback (most recent call last):
+  File "/home/yongyong/.virtualenvs/py3/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/yongyong/qccscrapy/qichacha/qichacha/spiders/qcc.py", line 60, in gd_parse
+    table_gdx = table_gd[0]
+  File "/home/yongyong/.virtualenvs/py3/lib/python3.5/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2020-06-01 00:39:56 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.qcc.com/firm_9805G4C.shtml#base> (referer: https://www.qcc.com/search?key=%E5%8C%97%E4%BA%AC%E9%80%81%E5%8F%98%E7%94%B5%E5%85%AC%E5%8F%B8%E7%BA%BF%E8%B7%AF%E5%99%A8%E6%9D%90%E5%8E%82)
+Traceback (most recent call last):
+  File "/home/yongyong/.virtualenvs/py3/lib/python3.5/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/yongyong/qccscrapy/qichacha/qichacha/spiders/qcc.py", line 60, in gd_parse
+    table_gdx = table_gd[0]
+  File "/home/yongyong/.virtualenvs/py3/lib/python3.5/site-packages/parsel/selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
